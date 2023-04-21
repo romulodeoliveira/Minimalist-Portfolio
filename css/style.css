@@ -113,4 +113,5 @@ img {
 .DivFooter {
   display: flex;
   place-content: space-between;
+  font-size: 12px;
 }
