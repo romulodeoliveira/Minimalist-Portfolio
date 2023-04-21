@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fafaf8;
+  display: grid;
+  justify-content: center;
+}
+
+main,
+section {
+  max-width: 37.5rem;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Outfit;
+  color: #252525;
+  font-weight: bold;
+}
+
+p {
+  font-family: Roboto Mono;
+  color: #333333;
+}
+
+a {
+  font-family: Roboto Mono;
+  color: #4b4b4b;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* DOC */
+
+.DivMyImage {
+  width: 10rem;
+  max-height: 10rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.MyImage {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  object-position: 2px -20px;
+  transform: scale(1.3);
+}
+
+.DivPresentation {
+  font-size: 1rem;
+}
+
+.AboutMe {
+  font-size: 1rem;
+}
+
+.DivMyImage,
+.DivPresentation,
+.AboutMe,
+.ProjectsHeader,
+.IndividualProject,
+.Contacts,
+.DivFooter {
+  margin: 2rem;
+}
+.ProjectsHeader {
+  display: flex;
+  place-content: space-between;
+}
+
+.IndividualProject {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.IndividualProjectHeader {
+  display: flex;
+  place-content: space-between;
+}
+
+.ContactsHeader {
+  margin-bottom: 2rem;
+}
+
+.DivContacts {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.DivContacts a {
+  display: block;
+  display: flex;
+  place-content: space-between;
+}
+
+.DivFooter {
+  display: flex;
+  place-content: space-between;
+}
