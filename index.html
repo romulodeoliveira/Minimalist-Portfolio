@@ -9,15 +9,13 @@
     <link rel="icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Roboto Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
     <!-- Outfit -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,7 +30,7 @@
             </h1>
         </div>
 
-        <div>
+        <div class="AboutMe">
             <p>
                 No momento estou focado em aprender C# para que eu possa me tornar um especialista em desenvolvimento web com esta linguagem. Estou documentando esse processo no meu <a href="">GitHub</a>.
             </p>
@@ -40,8 +38,10 @@
     </main>
 
     <section class="Projects">
-        <div>
-            <h2>Projetos</h2>
+        <div class="ProjectsHeader">
+            <h2 class="ProjectsTitle">Projetos</h2>
+
+            <a href="./projects.html">Ver Todos</a>
         </div>
 
         <div class="IndividualProject">
@@ -166,13 +166,19 @@
     </section>
 
     <section class="Contacts">
-        <a href="">GitHub</a>
-        <a href="">GitLab</a>
-        <a href="">LinkedIn</a>
+        <div class="ContactsHeader">
+            <h2 class="ContactsTitle">Contatos</h2>
+        </div>
+
+        <div class="DivContacts">
+            <a href=""><span>GitHub</span><span>@romulodeoliveira</span></a>
+            <a href=""><span>GitLab</span><span>@romulodeoliveira</span></a>
+            <a href=""><span>LinkedIn</span><span>@romulodeoliveira</span></a>
+        </div>
     </section>
 
-    <footer>
-        <div>
+    <footer class="Footer">
+        <div class="DivFooter">
             <p>2023 - Rômulo de Oliveira</p>
 
             <div>
